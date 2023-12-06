@@ -1,0 +1,39 @@
+﻿<Window x:Class="Lab2_obrazowanie_kalkulatora.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2_obrazowanie_kalkulatora"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="box1" HorizontalAlignment="Left" Height="19" Margin="178,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="331"/>
+        
+        <Button Name="but11" Content="1" HorizontalAlignment="Left" Margin="44,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but12" Content="2" HorizontalAlignment="Left" Margin="106,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but13" Content="3" HorizontalAlignment="Left" Margin="169,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but14" Content="4" HorizontalAlignment="Left" Margin="44,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but15" Content="5" HorizontalAlignment="Left" Margin="106,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but16" Content="6" HorizontalAlignment="Left" Margin="169,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but17" Content="7" HorizontalAlignment="Left" Margin="44,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but18" Content="8" HorizontalAlignment="Left" Margin="106,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but19" Content="9" HorizontalAlignment="Left" Margin="169,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but10" Content="0" HorizontalAlignment="Left" Margin="106,142,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+
+        <Button Name="but21" Content="1" HorizontalAlignment="Left" Margin="453,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but22" Content="2" HorizontalAlignment="Left" Margin="520,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but23" Content="3" HorizontalAlignment="Left" Margin="590,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but24" Content="4" HorizontalAlignment="Left" Margin="453,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but25" Content="5" HorizontalAlignment="Left" Margin="520,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but26" Content="6" HorizontalAlignment="Left" Margin="590,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but27" Content="7" HorizontalAlignment="Left" Margin="453,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but28" Content="8" HorizontalAlignment="Left" Margin="520,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but29" Content="9" HorizontalAlignment="Left" Margin="590,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="but20" Content="0" HorizontalAlignment="Left" Margin="520,142,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+
+        <Button Name="butPlus" Content="+" HorizontalAlignment="Left" Margin="305,38,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="butMinus" Content="-" HorizontalAlignment="Left" Margin="305,74,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="butTimes" Content="*" HorizontalAlignment="Left" Margin="305,107,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+        <Button Name="butSplit" Content="/" HorizontalAlignment="Left" Margin="305,142,0,0" VerticalAlignment="Top" Width="40" Background="White"/>
+    </Grid>
+</Window>
