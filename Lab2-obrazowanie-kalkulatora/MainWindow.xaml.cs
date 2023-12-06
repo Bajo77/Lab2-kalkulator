@@ -164,6 +164,7 @@ namespace Lab2_obrazowanie_kalkulatora
             {
                 foreach (var button in buttonsToChange)
                 {
+
                     button.Background = Brushes.White;
                 }
                 ss.Speak("Proszę powtórzyć");
